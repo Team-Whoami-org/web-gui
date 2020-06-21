@@ -1,0 +1,123 @@
+/* Video background */
+
+.video-background
+{
+  position: fixed;
+  right: 0; 
+  bottom: 0;
+  min-width: 100%; 
+  min-height: 100%;
+  width: auto; 
+  height: auto;
+  z-index: -100;
+}
+
+/* Header */
+
+header img {
+
+  width: 300px;
+  height: 300px;
+  margin-top: 50px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 10px; 
+  display: block;
+
+}
+
+header h1 {
+
+  font-size: 50px;
+  text-shadow: 0 0 15px #fff;
+  color: white;
+  text-align: center;
+
+}
+
+header #slogan {
+
+  color: white;
+  text-align: center;
+  font-size: 10px;
+  text-shadow: 0 0 15px #fff;
+
+}
+
+header #subtitle {
+
+  color: white;
+  text-align: center;
+  font-size: 30px;
+  font-family: "Times New Roman", Times, serif;
+
+}
+
+/* Box login */
+
+.form-control:focus {
+
+  color: white;
+  background: black;
+  border-style: solid;
+  box-shadow: 0 0 15px #fff;
+  border-color: white;
+
+}
+
+.form-control, .btn { 
+
+  color: white;
+  background: black;
+
+}
+
+.login-form {
+
+  width: 350px;
+  margin: 0 auto;
+
+}
+
+.login-form h2 {
+
+  font-size: 22px;
+  margin: 35px 0 25px;
+  color: white;
+
+}
+
+.login-form .btn {   
+
+  font-size: 16px;
+  font-weight: bold;
+  background: black;
+  margin-top: 60px;
+  box-shadow: 0 0 20px #4f9;
+
+
+}
+
+.login-form .btn:hover, .login-form .btn:focus {
+
+  background: white;
+  color: black;
+  outline: none !important;
+
+}    
+
+::-webkit-input-placeholder {
+   text-align: center;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+   text-align: center;  
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+   text-align: center;  
+}
+
+:-ms-input-placeholder {  
+   text-align: center; 
+}

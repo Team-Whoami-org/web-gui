@@ -1,0 +1,18 @@
+
+/* General */
+
+body{
+
+  background-color: black;
+
+}
+
+/* Footer */
+
+footer p {
+
+	color: white;
+	text-align: center;
+	margin-top: 50px;
+
+}

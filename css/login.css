@@ -1,3 +1,4 @@
+
 /* Video background */
 
 .video-background
@@ -55,6 +56,15 @@ header #subtitle {
 
 /* Box login */
 
+.forms .label-edit{
+  
+  color: white;
+  text-align: center;
+  display: block;
+  padding-bottom: 5px;
+
+}
+
 .form-control:focus {
 
   color: white;
@@ -72,14 +82,14 @@ header #subtitle {
 
 }
 
-.login-form {
-
+.forms {
+  
   width: 350px;
   margin: 0 auto;
 
 }
 
-.login-form h2 {
+.forms h2 {
 
   font-size: 22px;
   margin: 35px 0 25px;
@@ -87,7 +97,7 @@ header #subtitle {
 
 }
 
-.login-form .btn {   
+.forms .btn {   
 
   font-size: 16px;
   font-weight: bold;
@@ -98,7 +108,7 @@ header #subtitle {
 
 }
 
-.login-form .btn:hover, .login-form .btn:focus {
+.forms .btn:hover, .forms .btn:focus {
 
   background: white;
   color: black;
@@ -121,3 +131,41 @@ header #subtitle {
 :-ms-input-placeholder {  
    text-align: center; 
 }
+
+.custom-file-label{
+
+  color: white;
+  background-color: black;
+
+}
+
+.custom-file-input ~ .custom-file-label::after {
+    content: "Examinar";
+}
+
+.links-style-forms{
+  
+  color: white;
+  padding-top: 20px;
+  text-align: center;
+  display: block;
+  text-shadow: 0 0 15px #fff;
+
+}
+
+.links-style-forms:hover{
+  
+  color: white;
+  cursor: pointer;
+  text-shadow: 0 0 15px red;
+
+}
+
+/* Formulario de registro */
+
+#form-register{
+
+  display: none;
+
+}
+

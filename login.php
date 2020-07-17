@@ -13,12 +13,12 @@
   <meta name="Revisit-after" content="60 days">
   <meta name="robots" content="follow">
 
-  <link rel="icon" href="img/favicon.ico">
+  <link rel="shortcut icon" href="Files/img/favicon.ico">
 
   <!-- Bootstrap and custom CSS -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
-  <link href="css/general.css" rel="stylesheet">
-  <link href="css/login.css" rel="stylesheet">
+  <link href="Files/css/general.css" rel="stylesheet">
+  <link href="Files/css/login.css" rel="stylesheet">
 
   <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
@@ -29,13 +29,13 @@
 <body>
 
     <video autoplay loop class="video-background" muted plays-inline>
-      <source src="videos/background.webm" type="video/webm">
+      <source src="Files/videos/background.webm" type="video/webm">
     </video>
 
 
     <!-- Encabezado -->
     <header>
-        <img id="logo" class="img-fluid" alt="Responsive image" src="img/whoami.png"/>
+        <img id="logo" class="img-fluid" alt="Responsive image" src="Files/img/whoami.png"/>
         <h1>Team Whoami</h1>
         <p id="slogan">NO_SYSTEM_IS_SAFE</p>
         <p id="subtitle">-- ACADEMY --</p>
@@ -113,7 +113,7 @@
         <p>© All right Reversed. Team Whoami.</p>
     </footer>
 
-    <script src="js/login.js"></script>
+    <script src="Files/js/login.js"></script>
 
 </body>
 </html>
